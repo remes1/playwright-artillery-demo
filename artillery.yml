@@ -1,0 +1,12 @@
+config:
+  target: "https://restful-booker.herokuapp.com/"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+  engines:
+    playwright: {}
+  processor: "./tests/performance/processor.ts"
+scenarios:
+  - name: open_site
+    engine: playwright
+    testFunction: openSite
