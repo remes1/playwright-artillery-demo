@@ -33,7 +33,7 @@ npm install
 Run the performance test using Artillery:
 
 ```bash
-npm test
+npm run test
 ```
 
 This will execute the load test as configured in `artillery.yml`.
