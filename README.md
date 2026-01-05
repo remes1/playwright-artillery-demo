@@ -2,6 +2,10 @@
 
 This project demonstrates how to integrate Playwright with Artillery for performance testing web applications. It showcases running load tests using Playwright's browser automation capabilities through Artillery's load testing framework.
 
+## Demo
+
+![Performance Test Demo](demo.gif)
+
 ## Overview
 
 The demo performs a simple load test against the [Restful Booker](https://restful-booker.herokuapp.com/) website by:
